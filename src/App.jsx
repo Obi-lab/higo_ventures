@@ -13,7 +13,7 @@ function App() {
   return (
     <div className=" h-screen items-center">
       <Routes>
-        <Route path='/' element={<Landing/>} />
+        <Route path='/' element={<Homepage/>} />
         <Route path='/home' element={<Homepage/>} />
         <Route path='/portfolio' element={<Portfolio/>} />
         <Route path='/blog' element={<Blog/>} />
